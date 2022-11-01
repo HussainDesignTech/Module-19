@@ -1,0 +1,254 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: auto;
+    font-weight: bold;
+}
+.logo {
+    width: 45%; 
+    padding: 0%;
+    padding-left: 10%;
+    text-align: center;
+}
+.navigation {
+    width: 100%;
+    height: 20%;
+}
+
+#header-background{
+    width: 100%;
+    height: 100px;
+    background: url(Background.jpg);
+}
+
+body {
+    background-color: #4682b4;
+    margin: 0;
+}
+nav {
+    background-color: #4682b4;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-right: 2.5%;
+}
+
+p {
+    color: black;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    font-weight: bold;
+   font-family: "Open Sans", helvetica, sans-serif;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    padding:0%;
+    gap: 3%;
+}
+
+li { 
+    color: white;
+    padding: 5px;
+    gap: 20px;
+}
+
+.heroimg {
+    background-image: url("backgroundlamp2.jpg");
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: #4682b4;
+    padding: 25px;
+    padding-bottom: 40px;
+}
+.content {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.image {
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+width: 600px;
+height: 400px; 
+padding-bottom: 5px;
+}
+
+footer {
+    background-color: #4682b4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0%;
+}
+
+h1 {
+    padding-top: 4%;
+    padding-bottom: 1%;
+     color: black;
+}
+h2 { 
+    color: white;
+}
+h3 { 
+    color: black;
+}
+h4 { 
+    color: black;
+}
+.projects {
+    text-align: center;
+}
+.projectGrid {
+    width: 55%;
+    display: grid;
+    gap: 5%;
+    row-gap: 10%;
+    grid-template-columns: auto auto;
+    align-items: center;
+    align-content: center;
+    padding: 1%;
+    padding-left: 27%;
+    padding-bottom: 5%;
+}
+.myproject {
+    text-align: right;
+    justify-content: center;
+    padding: 5%;
+    color: white;
+    height: 1%;
+}
+#myproject2 {
+    text-align: center;
+    justify-content: center;
+    padding: 2%;
+    color: white;
+    height: 1%;
+    text-decoration: underline;
+    text-decoration-color: rgb(184, 6, 6);
+    cursor: pointer;
+    font-weight: bold;
+}
+button {
+   border-color: rgb(205, 50, 50);
+   color: black;
+   background-color:white;
+   cursor: pointer;
+   padding: 2.5%;
+   font-weight: bold;
+   font-family: "Open Sans", helvetica, sans-serif;
+}
+.resumebutton {
+    border-color: rgb(205, 50, 50);
+    border-width: 3px;
+    color: black;
+    background-color:white;
+    cursor: pointer;
+    padding: 1.7%;
+    font-weight: bold;
+    font-family: "Open Sans", helvetica, sans-serif;
+ }
+.projects {
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: #4682b4;
+    padding-bottom: 1%;
+}
+@media screen and (max-width: 768px) {
+    .projectGrid {
+        width: 85%;
+        margin: auto;
+        padding-left: 5%;
+        display:inline-block;
+        justify-items: center;
+        gap: 5%;
+        row-gap: 10%;
+        align-items: center;
+        align-content: center;
+    }
+
+    .projects {
+        background-position:40%;
+        background-repeat:repeat-x;
+        background-size:cover;
+        background-color: #4682b4;
+        padding-bottom: 1%;
+    }
+    .myproject {
+        text-align: center;
+        padding: 0%;
+        padding-top: 15%;
+        color: white;
+        height: 1%;
+        
+}
+.heroimg {
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:455%;
+    background-image: url("Background.jpg");
+    padding: 25px;
+    padding-bottom: 40px;
+}
+
+.content {
+    width: 283px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.image {
+background-image: url("Hussain1.png");
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+width: 200px;
+height: 200px; 
+padding: 0%;
+padding-left: 10%;
+margin: auto;
+}
+
+nav {
+    background-color: #4682b4;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    padding-right: 10%;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    padding:0%;
+    gap: 25px;
+}
+
+.logo {
+    width: 10%; 
+    padding: 0%;
+    padding-top: 2%;
+    padding-left: 10%;
+    text-align: center;
+
+}
+
+button {
+    border-color: rgb(205, 50, 50);
+    color: black;
+    background-color:white;
+    cursor: pointer;
+    padding: 2%;
+ }
+
+ .resumebutton {
+    border-color: rgb(205, 50, 50);
+    color: black;
+    background-color:white;
+    cursor: pointer;
+    padding: 4%;
+ }
+
+}
